@@ -1,11 +1,17 @@
-// Importing necessary dependencies
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MovieList from "./components/MovieList";
 import AddMovie from "./components/AddMovie";
+import FilterMovie from "./components/FilterMovie";
 
 // App component
 const App = () => {
+  // State for filtering movies based on title
+  const [filterTitle, setFilterTitle] = useState("");
+
+  // State for filtering movies based on rating
+  const [filterRating, setFilterRating] = useState("");
+
   // State for managing the list of movies
   const [movies, setMovies] = useState([
     {
@@ -39,20 +45,43 @@ const App = () => {
     setMovies((prevMovies) => [...prevMovies, newMovie]);
   };
 
+  // Function to filter movies based on title and rating
+  const filterByTitleAndRating = (title, rating) => (movie) => {
+    const titleMatch = title
+      ? movie.title.toLowerCase().includes(title.toLowerCase())
+      : true;
+    const ratingMatch = rating ? movie.rating >= parseInt(rating) : true;
+
+    return titleMatch && ratingMatch;
+  };
+
+  // Filtered list of movies based on title and rating
+  const filteredMovies = movies.filter(
+    filterByTitleAndRating(filterTitle, filterRating)
+  );
+
   return (
     <div className="container">
-      {/* Left column: Displaying the list of movies */}
+      {/* Website heading */}
+      <h1>Movie App</h1>
+      {/* Left column: Displaying the list of movies and filtering */}
       <div className="col-md-6">
-        <MovieList movies={movies} />
+        {/* Component for filtering movies */}
+        <FilterMovie
+          setFilterTitle={setFilterTitle}
+          setFilterRating={setFilterRating}
+        />
+        {/* Component for displaying movies */}
+        <MovieList movies={filteredMovies} />
       </div>
 
       {/* Right column: Adding a new movie */}
       <div className="col-md-6">
+        {/* Component for adding a new movie */}
         <AddMovie onAddMovie={addMovie} />
       </div>
     </div>
   );
 };
 
-// Exporting the App component
 export default App;

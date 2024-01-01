@@ -1,16 +1,28 @@
 /* styles.css */
+
 /* Universal styling */
 * {
   margin: 0;
   padding: 0;
 }
-
-/* Margins and layout for a specific component */
+/* Styling for container element */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Margins and layout mb-4 */
 .mb-4 {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+/* Styling for h1 element*/
+h1 {
+  margin-top: 15px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
 }
 
 /* Styling for h2 elements */
@@ -40,17 +52,16 @@ form {
 /* Styling for form inputs */
 form input {
   margin-bottom: 20px;
-  width: 200px;
+  width: 300px;
 }
 
-/* Styling for a specific form class */
+/* Styling for add movie form class */
 .addMovie {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
-  margin-left: 300px;
 }
 
 /* Styling for a title element */
@@ -65,4 +76,30 @@ form input {
 /* Styling for a star rating element */
 .star-rating {
   font-size: 24px;
+}
+
+/* Styling for search input and column layout */
+.col-md-6 {
+  margin-top: 50px;
+  padding: 2px;
+}
+
+/* Styling for search title input */
+.searchTitle {
+  margin-right: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 1px #b3b3b3;
+}
+
+/* Styling for search rating input */
+.searchRating {
+  padding: 5px;
+  width: 170px;
+  border-radius: 10px;
+  border: solid 1px #b3b3b3;
+}
+/* Styling Add movie button */
+.btn:hover {
+  background-color: #6f42c1;
 }
