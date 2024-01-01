@@ -2,6 +2,9 @@
 
 Welcome to the Movie App! This simple web application created using React and allows you to manage and filter a list of movies. You can add new movies, and filter the existing list by title or rating. All this is made possible by use of React hooks.
 
+## Pre-requisites
+Make sure you have node.js versin 21 and React version 18.2 installed.
+
 ## Getting Started
 
 1. Clone the repository or download the files.
@@ -35,8 +38,8 @@ The Filter component provides input fields to filter the movie list by title and
 The project is created by Elaine Muhombe.
 
 ## Acknowledgements
-- React Website: react.dev
+- React Website: [react.dev](https://react.dev/)
 - React and Bootsrap website: https://react-bootstrap.netlify.app/
-- Medium website: medium.com website
+- Medium website: [medium.com website](https://medium.com/)
 - Free code camp website: https://www.freecodecamp.org/
 
