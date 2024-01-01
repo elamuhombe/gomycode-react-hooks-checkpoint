@@ -1,6 +1,6 @@
 # Movie App
 
-Welcome to the Movie App! This simple web application allows you to manage and filter a list of movies. You can add new movies, and filter the existing list by title or rating.
+Welcome to the Movie App! This simple web application created using React and allows you to manage and filter a list of movies. You can add new movies, and filter the existing list by title or rating. All this is made possible by use of React hooks.
 
 ## Getting Started
 
