@@ -1,0 +1,68 @@
+/* styles.css */
+/* Universal styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Margins and layout for a specific component */
+.mb-4 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Styling for h2 elements */
+h2 {
+  margin-top: 15px;
+}
+
+/* Styling for images */
+img {
+  object-fit: cover;
+  height: 300px;
+}
+
+/* Styling for a specific text element */
+.Text {
+  margin-bottom: 20px;
+}
+
+/* Styling for form element */
+form {
+  border: solid 1px #978a84;
+  border-radius: 10px;
+  width: 500px;
+  height: 450px;
+}
+
+/* Styling for form inputs */
+form input {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+/* Styling for a specific form class */
+.addMovie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+
+/* Styling for a title element */
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+  margin-left: 40px;
+}
+
+/* Styling for a star rating element */
+.star-rating {
+  font-size: 24px;
+}
