@@ -6,7 +6,7 @@ Welcome to the Movie App! This simple web application allows you to manage and f
 
 1. Clone the repository or download the files.
 
-```bash
+bash command
 git clone <repository-url>
 cd <project-folder>
 
@@ -27,7 +27,8 @@ The MovieList component displays a list of MovieCard components.
 The Filter component provides input fields to filter the movie list by title and rating.
 
 ## File Structure
-![movie-app](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/42aa58fc-5ca9-422b-85bc-69145e2c3fe2)
+![movie-app](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/f0c05e19-1288-40b0-ae83-11483eb4749f)
+
 
 
 ## Author
