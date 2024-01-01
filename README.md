@@ -35,4 +35,8 @@ The Filter component provides input fields to filter the movie list by title and
 The project is created by Elaine Muhombe.
 
 ## Acknowledgements
+- React Website: react.dev
+- React and Bootsrap website: https://react-bootstrap.netlify.app/
+- Medium website: medium.com website
+- Free code camp website: https://www.freecodecamp.org/
 
