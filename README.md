@@ -29,6 +29,10 @@ The MovieList component displays a list of MovieCard components.
 3. Filter
 The Filter component provides input fields to filter the movie list by title and rating.
 
+## Screenshot for the user interface
+![movies](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/8a3717b6-b160-4c7a-a490-962cfb850d45)
+
+
 ## File Structure
 ![movie-app](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/f0c05e19-1288-40b0-ae83-11483eb4749f)
 
