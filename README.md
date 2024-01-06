@@ -21,16 +21,19 @@ Getting Started
 - Navigate back to the home page from the trailer page
 
 ## Components
-1. MovieCard
+1.App
+This is the main entry point for the application. It defines the routes and renders the components for different pages.
+
+2. MovieCard
 The MovieCard component represents a card displaying details of a movie, including title, description, poster image, and rating.
 
-2. MovieList
+3. MovieList
 The MovieList component displays a list of MovieCard components.
 
-3. Filter
+4. Filter
 The Filter component provides input fields to filter the movie list by title and rating.
 
-4. Trailer
+5. Trailer
 Displays the movie description and video of the movie card clicked.
 It also comtains the navigation button that navigates back to the home page.
 
@@ -63,4 +66,5 @@ The project is created by Elaine Muhombe.
 - React and Bootsrap website: https://react-bootstrap.netlify.app/
 - Medium website: [medium.com website](https://medium.com/)
 - Free code camp website: https://www.freecodecamp.org/
+- Learn React Router v6 in 45 Minutes: https://youtu.be/Ul3y1LXxzdU
 
