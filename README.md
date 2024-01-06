@@ -16,8 +16,9 @@ cd <project-folder>
 2. Open the index.html file in your web browser to run the application.
 
 ## Features
-1. Add a New Movie
-To add a new movie to the list, you can modify the addMovie function in the app.js file.
+- Display a list of movies on the home page
+- Click on a movie card to view its detailed description and trailer
+- Navigate back to the home page from the movie detail page
 
 ## Components
 1. MovieCard
