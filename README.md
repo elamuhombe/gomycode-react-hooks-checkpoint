@@ -9,7 +9,7 @@ Make sure you have node.js versin 21 and React version 18.2 installed.
 
 Getting Started
 
-1. Clone the repository: `git clone [<repository-url>`](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint.git)
+1. Clone the repository: `git clone(https://github.com/elamuhombe/gomycode-react-hooks-checkpoint.git)
 2. Change into the project directory: `cd MovieApp`
 3. Install dependencies: `npm install`
 4. Open the application in your browser: `npm start`
