@@ -47,7 +47,13 @@ It also comtains the navigation button that navigates back to the home page.
 ![structure](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/301b4446-7f7a-4239-99dd-0cf835a6623f)
 
 
+## Dependencies
 
+- React
+- React Router DOM
+
+## Contributing
+Feel free to contribute to the project. Fork the repository, make your changes, and submit a pull request.
 
 ## Author
 The project is created by Elaine Muhombe.
