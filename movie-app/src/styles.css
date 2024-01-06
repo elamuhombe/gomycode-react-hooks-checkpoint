@@ -5,12 +5,26 @@
   margin: 0;
   padding: 0;
 }
+/* Links stylying */
+a {
+  text-decoration: none;
+  color: black;
+}
 /* Styling for container element */
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/* Styling for movie cards */
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: inherit;
 }
 /* Margins and layout mb-4 */
 .mb-4 {
@@ -100,6 +114,20 @@ form input {
   border: solid 1px #b3b3b3;
 }
 /* Styling Add movie button */
-.btn:hover {
+.btn-add {
   background-color: #6f42c1;
+  border-radius: 14px;
+}
+
+/* Styling for back to home button link */
+.back-link {
+  padding: 14px;
+  background-color: #6f42c1;
+  border-radius: 14px;
+  font-size: 14px;
+  color: #fff;
+}
+/* Styling for back to home button on hover state */
+.back-link:hover {
+  background-color: #3b71ca;
 }

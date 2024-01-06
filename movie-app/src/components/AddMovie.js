@@ -115,7 +115,7 @@ const AddMovie = ({ onAddMovie }) => {
         </Form.Group>
 
         {/* Submit Button */}
-        <Button variant="primary" type="submit" className="btn">
+        <Button variant="primary" type="submit" className="btn-add">
           Add Movie
         </Button>
       </Form>

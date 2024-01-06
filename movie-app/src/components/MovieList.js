@@ -8,7 +8,7 @@ const MovieList = ({ movies }) => {
   return (
     <div className="movie-list">
       {movies.map((movie) => (
-        // Rendering individual MovieCards for each movie
+        // Rendering individual MovieCards for each movie with a unique key
         <MovieCards key={movie.title} movie={movie} />
       ))}
     </div>

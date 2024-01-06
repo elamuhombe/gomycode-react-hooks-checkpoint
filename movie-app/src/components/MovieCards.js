@@ -1,6 +1,7 @@
 // Importing necessary dependencies and styles
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap styles
+import { Link } from "react-router-dom";
 import "../styles.css"; // Additional styles
 
 // Function to generate stars (including half stars) based on the 'stars' property
@@ -27,56 +28,19 @@ const getStars = (numStars) => {
 
 // MovieCards component
 const MovieCards = ({ movie }) => {
-  // Styling for the card
-  const cardStyle = {
-    maxWidth: "540px",
-  };
-
   return (
-    <div>
-      {/* Section heading */}
-      <h2>Latest Releases</h2>
-
-      <div className="row">
-        {/* Movie Cards Column */}
-        <div className="col-mb-3">
-          {/* Individual Movie Card */}
-          <div className="card" style={cardStyle}>
-            <div className="row no-gutters">
-              {/* Movie Poster */}
-              <div className="col-md-4">
-                <img
-                  src={movie.posterUrl}
-                  className="card-img"
-                  alt="Movie Poster"
-                />
-              </div>
-
-              {/* Movie Details */}
-              <div className="col-md-8">
-                <div className="card-body">
-                  {/* Movie Title */}
-                  <h5 className="card-title">{movie.title}</h5>
-
-                  {/* Movie Description */}
-                  <p className="card-text">
-                    <small className="text-muted">{movie.description}</small>
-                  </p>
-
-                  {/* Movie Rating */}
-                  <p>Rating: {movie.rating}</p>
-
-                  {/* Displaying stars based on the rating */}
-                  <p>{getStars(movie.rating)}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    // Wrap the MovieCard with a Link component
+    <Link to={`/trailer/${movie.id}`}>
+      <div className="movie-card">
+        <img src={movie.posterUrl} alt={movie.title} />
+        <h3>{movie.title}</h3>
+        <p>{movie.description}</p>
+        <p>Rating: {movie.rating}</p>
+        {/* Call getStars function to display stars */}
+        <div className="stars">{getStars(movie.rating)}</div>
       </div>
-    </div>
+    </Link>
   );
 };
 
-// Exporting the MovieCards component
 export default MovieCards;
