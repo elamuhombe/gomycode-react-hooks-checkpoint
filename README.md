@@ -7,13 +7,13 @@ Make sure you have node.js versin 21 and React version 18.2 installed.
 
 ## Getting Started
 
-1. Clone the repository or download the files.
+Getting Started
 
-bash command
-git clone <repository-url>
-cd <project-folder>
+1. Clone the repository: `git clone <repository-url>`
+2. Change into the project directory: `cd MovieApp`
+3. Install dependencies: `npm install`
+4. Open the application in your browser: `npm start`
 
-2. Open the index.html file in your web browser to run the application.
 
 ## Features
 - Display a list of movies on the home page
