@@ -18,7 +18,7 @@ cd <project-folder>
 ## Features
 - Display a list of movies on the home page
 - Click on a movie card to view its detailed description and trailer
-- Navigate back to the home page from the movie detail page
+- Navigate back to the home page from the trailer page
 
 ## Components
 1. MovieCard
@@ -30,17 +30,22 @@ The MovieList component displays a list of MovieCard components.
 3. Filter
 The Filter component provides input fields to filter the movie list by title and rating.
 
+4. Trailer
+Displays the movie description and video of the movie card clicked.
+It also comtains the navigation button that navigates back to the home page.
+
 ## Screenshot for the user interface
 ### Home page displaying the search text boxes, movie list and add new movie form
 ![movies](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/8a3717b6-b160-4c7a-a490-962cfb850d45)
 
-### Movie description page
+### Trailer page
 ![movie-description](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/83ad7d34-b2a9-4ef1-8e15-b5b65d28b167)
 
 
 
 ## File Structure
-![movie-app](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/f0c05e19-1288-40b0-ae83-11483eb4749f)
+![structure](https://github.com/elamuhombe/gomycode-react-hooks-checkpoint/assets/10416177/301b4446-7f7a-4239-99dd-0cf835a6623f)
+
 
 
 
